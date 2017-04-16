@@ -11,13 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var funFactsLabel: UILabel!
-    let facts =  ["Ants stretch "]
+    let factsProvider = FactsProvider()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        funFactsLabel.text = "Some Facts"
+        funFactsLabel.text = factsProvider.generateRandomFact()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,7 +29,7 @@ class ViewController: UIViewController {
     
     @IBAction func showFunFact() {
         
-        funFactsLabel.text = "Some other Facts"
+        funFactsLabel.text = factsProvider.generateRandomFact()
         
     }
 

@@ -13,6 +13,7 @@
 		97C34BF91EA311830046E99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C34BF81EA311830046E99E /* Assets.xcassets */; };
 		97C34BFC1EA311830046E99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C34BFA1EA311830046E99E /* LaunchScreen.storyboard */; };
 		97C34C071EA311830046E99E /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C34C061EA311830046E99E /* FunFactsTests.swift */; };
+		97C46F8B1EA3CD4C00C4FFDD /* FactsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C46F8A1EA3CD4C00C4FFDD /* FactsProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		97C34C021EA311830046E99E /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C34C061EA311830046E99E /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		97C34C081EA311830046E99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97C46F8A1EA3CD4C00C4FFDD /* FactsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactsProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				97C34BF81EA311830046E99E /* Assets.xcassets */,
 				97C34BFA1EA311830046E99E /* LaunchScreen.storyboard */,
 				97C34BFD1EA311830046E99E /* Info.plist */,
+				97C46F8A1EA3CD4C00C4FFDD /* FactsProvider.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C46F8B1EA3CD4C00C4FFDD /* FactsProvider.swift in Sources */,
 				97C34BF41EA311830046E99E /* ViewController.swift in Sources */,
 				97C34BF21EA311830046E99E /* AppDelegate.swift in Sources */,
 			);
@@ -406,6 +410,7 @@
 				97C34C0D1EA311830046E99E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97C34C0E1EA311830046E99E /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +419,7 @@
 				97C34C101EA311830046E99E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
