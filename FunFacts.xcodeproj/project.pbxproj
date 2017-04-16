@@ -14,6 +14,7 @@
 		97C34BFC1EA311830046E99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C34BFA1EA311830046E99E /* LaunchScreen.storyboard */; };
 		97C34C071EA311830046E99E /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C34C061EA311830046E99E /* FunFactsTests.swift */; };
 		97C46F8B1EA3CD4C00C4FFDD /* FactsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C46F8A1EA3CD4C00C4FFDD /* FactsProvider.swift */; };
+		97C46F8D1EA3EE7000C4FFDD /* ColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C46F8C1EA3EE7000C4FFDD /* ColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		97C34C061EA311830046E99E /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		97C34C081EA311830046E99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97C46F8A1EA3CD4C00C4FFDD /* FactsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactsProvider.swift; sourceTree = "<group>"; };
+		97C46F8C1EA3EE7000C4FFDD /* ColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				97C34BFA1EA311830046E99E /* LaunchScreen.storyboard */,
 				97C34BFD1EA311830046E99E /* Info.plist */,
 				97C46F8A1EA3CD4C00C4FFDD /* FactsProvider.swift */,
+				97C46F8C1EA3EE7000C4FFDD /* ColorProvider.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C46F8D1EA3EE7000C4FFDD /* ColorProvider.swift in Sources */,
 				97C46F8B1EA3CD4C00C4FFDD /* FactsProvider.swift in Sources */,
 				97C34BF41EA311830046E99E /* ViewController.swift in Sources */,
 				97C34BF21EA311830046E99E /* AppDelegate.swift in Sources */,
