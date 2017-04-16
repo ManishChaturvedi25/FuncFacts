@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         
         funFactsLabel.text = factsProvider.generateRandomFact()
         
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
